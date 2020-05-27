@@ -1,0 +1,35 @@
+body {
+    background-color: darkgray;
+}
+.navbar {
+    opacity: 0.8;
+    border-bottom:  #00acee solid 3px;
+}
+.sign-up {
+    background-color: #00acee;
+}
+#home-head {
+    position: relative;
+    background: url('img/home.jpg') no-repeat center center/cover;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:100vh;
+}
+#home-head .dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+}
+#home-head .container {
+    padding-top: 150px;
+}
+#home-head .container .card {
+    opacity: 0.8;
+}
+footer {
+    background-color: black;
+}
